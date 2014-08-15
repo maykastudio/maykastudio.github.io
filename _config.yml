@@ -1,0 +1,22 @@
+title: 'МАЙКА/СТУДИЯ'
+description: 'жанр, портрет, свадьба, свадебная фотография, пейзаж, натюрморт, фотограф, maykastudio, майкастудио'
+url:
+baseurl: ""
+
+markdown: kramdown
+highlighter: pygments
+permalink: /:title
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+gems:
+  - jemoji
+  - jekyll-sitemap
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
