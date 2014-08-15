@@ -1,7 +1,11 @@
-title: 'МАЙКА/СТУДИЯ'
+title:       'МАЙКА/СТУДИЯ'
+author:      'maykastudio.ru'
+copyright:   'maykastudio.ru'
 description: 'жанр, портрет, свадьба, свадебная фотография, пейзаж, натюрморт, фотограф, maykastudio, майкастудио'
-url: "http://maykastudio.ru"
-baseurl: ""
+keywords:    'жанр, портрет, свадьба, свадебная фотография, пейзаж, натюрморт, фотограф, maykastudio, майкастудио'
+url:         'http://maykastudio.ru'
+baseurl:     ''
+google_verification: 'DEsPuVb8zjMrrdeJT3elZo090-SgKa3_PnrQcjEBGTo'
 
 markdown: kramdown
 highlighter: pygments

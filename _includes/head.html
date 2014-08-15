@@ -1,11 +1,19 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="viewport" content="width=device-width">
-  <meta name="description" content="{{ site.description }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
+  <meta name="viewport" content="width=device-width" />
+
+  <meta name="author" content="{{ site.author }}" />
+  <meta name="copyright" content="{{ site.copyright }}" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="keywords" content="{{ site.keywords }}" />
+
+  <meta name="google-site-verification" content="{{ site.google_verification }}" />
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}" />
+
   <script src="/js/jquery-1.11.0.min.js"></script>
   <script src="/js/lightbox.min.js"></script>
 </head>
